@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hello2</title>
+</head>
+<body>
+<h2>model 데이터 출력</h2>
+param1(대괄호사용):<p>[[${param1}]]</p>
+param1(th:text사용):<p th:text="${param1}"></p>
+param2:
+<p th:text="${param2.name}"></p>
+<p th:text="${param2.address}"></p>
+<p th:text="${param2.age}"></p>
+</body>
+</html>
